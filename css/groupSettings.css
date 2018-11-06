@@ -1,0 +1,71 @@
+.wrapper {
+	width: 80%;
+	padding: 2%;
+}
+
+.groupSettings {
+	background-color: #3b86db;
+	float: left;
+	box-shadow: 0 16px 32px 0 rgba(0, 0, 0, 0.4), 0 12px 50px 0 rgba(0, 0, 0, 0.4);
+	padding: 15px;
+	padding-top: 50px;
+	width: 700px;
+	height: 400px;
+	font-size: 40px;
+	display: inline-block;
+	margin-bottom: 30px;
+	margin-right: 30px;
+}
+
+.groupSettings input[type=number]{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+	display: inline-block;
+	position: relative;
+	font-size: 40px;
+	width: 250px;
+	height: 40px;
+	float: right;
+	margin-left: 5px;
+}
+
+.groupSettings button {
+	font-family: 'Montserrat', sans-serif;
+	margin-left: 10px;
+	margin-right: 10px;
+	background-color: #F7F7FF;
+    border: none;
+    color: black;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+	border-radius: 15px;
+}
+
+.groupSettings a {
+	text-align: center;
+}
+
+.groupSettings a {
+	text-align: center;
+	display: block;
+	margin:0 auto;
+	margin-top: 40px;
+}
+
+#centrebuttons {
+	text-align: center;
+}
+
+
+#centrebuttons button {
+	text-align: center;
+	display: block;
+	margin:0 auto;
+	margin-top: 30px;
+}
+
+.groupSettings p {
+	text-align: center;
+}

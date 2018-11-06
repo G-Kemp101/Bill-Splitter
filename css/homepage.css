@@ -1,0 +1,116 @@
+.wrapper {
+	width: 80%;
+	padding: 2%;
+}
+
+.payNewBill {
+	background-color: #3b86db;
+	float: left;
+	box-shadow: 0 16px 32px 0 rgba(0, 0, 0, 0.4), 0 12px 50px 0 rgba(0, 0, 0, 0.4);
+	padding: 15px;
+	padding-top: 50px;
+	width: 600px;
+	height: 600px;
+	font-size: 40px;
+	display: inline-block;
+	margin-bottom: 30px;
+	margin-right: 30px;
+}
+
+.payNewBill input[type=text], input[type=password], input[type=number] {
+	position: relative;
+	float: right;
+	width: 250px;
+	margin-top: 8px;
+	padding: 6px 3px;
+}
+
+.payNewBill input[type=submit], button {
+	font-family: 'Montserrat', sans-serif;
+	margin-left: 10px;
+	margin-right: 10px;
+	background-color: #F7F7FF;
+    border: none;
+    color: black;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+	border-radius: 15px;
+}
+
+.payNewBill select[multiple] {
+	font-family: 'Montserrat', sans-serif;
+	background-color: #F7F7FF;
+	color: black;
+	padding: 10px 20px;
+	font-size: 25px;
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+.centrebuttons {
+	text-align: center;
+}
+
+.centrebuttons input[type=submit] {
+	text-align: center;
+	display: block;
+	margin:0 auto;
+	margin-top: 40px;
+}
+
+#people select[multiple] {
+	text-align: center;
+	display: block;
+	margin: 0 auto;
+	margin-top: 50px;
+}
+
+
+
+#joinGroup {
+	background-color: #3b86db;
+	box-shadow: 0 16px 32px 0 rgba(0, 0, 0, 0.4), 0 12px 50px 0 rgba(0, 0, 0, 0.4);
+	display: inline-block;
+	margin-left: 100px;
+	text-align: center;
+	padding: 40px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-size: 20px;
+}
+
+#joinGroup input{
+	font-family: 'Montserrat', sans-serif;
+	text-align: center;
+	font-weight: bold;
+	font-size: 60px;
+	margin-top: 5px;
+	width: 300px;
+	height: 80px;
+}
+
+#alert {
+	position: absolute;
+	display: none;
+	width: 50%;
+	height: 30%;
+	left: 50%;
+	margin-left: -30%;
+	background-color: #1e54a0;
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#alert h1 {
+	font-size: 50px;
+	text-align: center;
+	text-decoration: underline;
+	margin-top: 30px;
+}
+
+#alert button {
+	font-size: 40px;
+	position: relative;
+	margin-top: 50px;
+}

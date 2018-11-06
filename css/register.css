@@ -1,0 +1,152 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+	color: #232528;
+	font-family: 'Montserrat', sans-serif;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.banner {
+	position: relative;
+	height: 150px;
+	background-color: #3281db;
+	padding-top: 15px;
+	padding-left: 30px;
+	padding-bottom: 15px;
+}
+
+#footer {
+	background-color: #1e54a0;
+	bottom: 0px;
+	width: 100%;
+	position: fixed;
+	height: 250px;
+}
+
+.content {
+	width: 100%;
+	padding: 40px;
+	text-align: center;
+}
+
+.Register {
+	background-color: #3b86db;
+	box-shadow: 0 16px 32px 0 rgba(0, 0, 0, 0.4), 0 12px 50px 0 rgba(0, 0, 0, 0.4);
+	padding: 15px;
+	padding-top: 50px;
+	width: 700px;
+	height: 600px;
+	font-size: 40px;
+	display: inline-block;
+}
+
+.Register h1, a {
+	text-align: center;
+}
+
+#back {
+	display: block;
+	margin: 0 auto;
+}
+
+option {
+	font-family: 'Montserrat', sans-serif;
+	position: relative;
+	float: right
+}
+
+select {
+	font-family: 'Montserrat', sans-serif;
+	position: relative;
+	float: right;
+	width: 260px;
+	right: 30px;
+	margin-top: 8px;
+	padding: 6px 3px;
+}
+
+.Register input[type=text], input[type=password], input[type=number] {
+	font-family: 'Montserrat', sans-serif;
+	position: relative;
+	float: right;
+	width: 250px;
+	right: 30px;
+	margin-top: 8px;
+	padding: 6px 3px;
+}
+
+.Register input[type=submit], button{
+	font-family: 'Montserrat', sans-serif;
+	margin: 0 auto;
+	background-color: #F7F7FF;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+	border-radius: 15px;
+}
+
+.Register p {
+	font-size: 15px;
+	float: right;
+	margin-right: 30px;
+	margin-top: 2px;
+}
+
+#pname, #pemail, #pgroup {
+	display: none;
+}
+
+#centrebuttons {
+	text-align: center;
+}
+
+#centrebuttons input[type=submit], button{
+	text-align: center;
+	display: block;
+	margin:0 auto;
+	margin-top: 40px;
+}

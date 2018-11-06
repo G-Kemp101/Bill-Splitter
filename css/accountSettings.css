@@ -1,0 +1,84 @@
+.wrapper {
+	width: 80%;
+	padding: 2%;
+
+}
+
+.settings {
+	background-color: #3b86db;
+	float: left;
+	box-shadow: 0 16px 32px 0 rgba(0, 0, 0, 0.4), 0 12px 50px 0 rgba(0, 0, 0, 0.4);
+	padding: 15px;
+	padding-top: 50px;
+	width: 750px;
+	height: 600px;
+	font-size: 40px;
+	display: inline-block;
+
+}
+
+.settings input[type=text], input[type=password], input[type=number] {
+	position: relative;
+	float: right;
+	width: 250px;
+	margin-top: 8px;
+	padding: 6px 3px;
+}
+
+.settings input[type=submit], button {changeDetails
+	font-family: 'Montserrat', sans-serif;
+	margin-left: 10px;
+	margin-right: 10px;
+	background-color: #F7F7FF;
+    border: none;
+    color: black;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+	border-radius: 15px;
+}
+
+.settings select {
+	font-family: 'Montserrat', sans-serif;
+	background-color: #F7F7FF;
+	color: black;
+	padding: 10px 20px;
+	font-size: 25px;
+	float: right;
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+#chooseBitch {
+	width: 500px;
+	margin-left: 60px;
+}
+
+#chooseBitch h2 {
+	margin-top: 7px;
+	font-size: 20px;
+}
+
+#bitchSelect {
+	margin-top: 100px;
+}
+
+
+.centrebuttons {
+	text-align: center;
+}
+
+#people select[multiple] {
+	text-align: center;
+	display: block;
+	margin: 0 auto;
+	margin-top: 50px;
+}
+
+.centrebuttons input[type=submit] {
+	text-align: center;
+	display: block;
+	margin:0 auto;
+	margin-top: 40px;
+}

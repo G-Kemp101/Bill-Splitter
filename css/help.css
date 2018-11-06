@@ -1,0 +1,18 @@
+.wrapper {
+	width: 80%;
+	padding: 2%;
+}
+
+#howTo {
+	background-color: #3b86db;
+	float: left;
+	box-shadow: 0 16px 32px 0 rgba(0, 0, 0, 0.4), 0 12px 50px 0 rgba(0, 0, 0, 0.4);
+	padding: 15px;
+	padding-top: 50px;
+	width: 1300px;
+	height: 600px;
+	font-size: 40px;
+	display: inline-block;
+	margin-bottom: 30px;
+	margin-right: 30px;
+}

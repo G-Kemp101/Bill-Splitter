@@ -1,0 +1,73 @@
+.wrapper {
+	width: 80%;
+	padding: 2%;
+}
+
+.note {
+	font-family: 'Montserrat', sans-serif;
+	display: inline-block;
+	background-color: #3b86db;
+	float: left;
+	box-shadow: 0 16px 32px 0 rgba(0, 0, 0, 0.4), 0 12px 50px 0 rgba(0, 0, 0, 0.4);
+	padding: 15px;
+	padding-top: 10px;
+	width: 300px;
+	height: 320px;
+	margin-bottom: 30px;
+	margin-right: 30px;
+	overflow-wrap: break-word;
+	overflow-wrap: break-word;
+  	word-wrap: break-word;
+	position: relative;
+	color: #232528;
+}
+
+.note h1 {
+	color: #232528;
+	font-size: 30px;
+	text-decoration: underline;
+}
+
+.note p {
+	font-size: 26px;
+	padding-top: 20px;
+}
+
+.note h3 {
+	position: absolute;
+	bottom: 4px;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+#title {
+	position: relative;
+	margin-bottom: 10px;
+	height: 30px;
+	width: 280px;
+	font-size: 30px;
+}
+
+#newnote {
+	position: relative;
+	margin-bottom: 10px;
+	width: 280px;
+	height: 240px;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 26px;
+	resize: none;
+}
+
+#submit {
+	font-family: 'Montserrat', sans-serif;
+	margin-left: 10px;
+	margin-right: 10px;
+	background-color: #F7F7FF;
+    border: none;
+    color: black;
+    padding: 3px 6px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+	border-radius: 10px;
+}
